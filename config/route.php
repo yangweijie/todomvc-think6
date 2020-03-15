@@ -3,6 +3,10 @@
 // | 路由设置
 // +----------------------------------------------------------------------
 
+use think\facade\Route;
+
+// Route::resource('todo', 'todo');
+
 return [
     // pathinfo分隔符
     'pathinfo_depr'         => '/',

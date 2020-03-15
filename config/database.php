@@ -58,5 +58,13 @@ return [
         ],
 
         // 更多的数据库配置信息
+        'sqlite'=>[
+            'type'=>'sqlite',
+            'database' => '../todo.db',
+            // 数据库编码默认采用utf8
+            'charset' => 'utf8',
+            // 数据库表前缀
+            'prefix' => '',
+        ],
     ],
 ];
